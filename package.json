@@ -1,0 +1,11 @@
+{
+  "name": "bastion",
+  "scripts": {
+    "dev": "wrangler dev",
+    "types:update": "wrangler types --x-include-runtime"
+  },
+  "dependencies": {
+    "hono": "4.6.4",
+    "wrangler": "3.79.0"
+  }
+}
