@@ -8,14 +8,14 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: read
-    name: Publish to Cloudflare Pages
+    name: Publish to Cloudflare Workers
     steps:
       - name: Checkout
         uses: actions/checkout@v4
 
       - uses: oven-sh/setup-bun@v2
         with:
-          bun-version-file: ".bun-version"
+          bun-version-file: ".tool-versions"
 
       - run: bun install
 
