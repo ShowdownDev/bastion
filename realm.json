@@ -1,0 +1,31 @@
+{
+  "id": "6e52a91c-da21-45e5-9824-5f97aa4151d0",
+  "realm": "Showdown",
+  "enabled": true,
+  "registrationAllowed": true,
+  "rememberMe": true,
+  "loginWithEmailAllowed": true,
+  "resetPasswordAllowed": true,
+  "clients": [
+    {
+      "id": "c9d58ad0-3fd6-43eb-904f-e78fa8b46b92",
+      "clientId": "showdown",
+      "enabled": true,
+      "clientAuthenticatorType": "client-secret",
+      "redirectUris": [
+        "https://tauri.localhost/oauth"
+      ],
+      "webOrigins": [
+        "https://tauri.localhost"
+      ],
+      "bearerOnly": false,
+      "consentRequired": false,
+      "standardFlowEnabled": true,
+      "implicitFlowEnabled": false,
+      "directAccessGrantsEnabled": false,
+      "serviceAccountsEnabled": false,
+      "publicClient": true,
+      "protocol": "openid-connect"
+    }
+  ]
+}

@@ -1,6 +1,7 @@
 {
   "name": "bastion",
   "scripts": {
+    "dev:keycloak": "docker compose up -d",
     "dev": "wrangler dev",
     "types:update": "wrangler types --x-include-runtime"
   },
