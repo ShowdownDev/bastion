@@ -2,22 +2,37 @@
     "v": 4,
     "name": "Showdown",
     "folders": [],
-    "requests": [],
+    "requests": [
+        {
+            "responses": {},
+            "body": {
+                "contentType": null,
+                "body": null
+            },
+            "name": "/user/me",
+            "params": [],
+            "requestVariables": [],
+            "preRequestScript": "",
+            "testScript": "",
+            "v": "8",
+            "endpoint": "https://echo.hoppscotch.io",
+            "headers": [],
+            "method": "GET"
+        }
+    ],
     "auth": {
         "authActive": true,
+        "addTo": "HEADERS",
         "authType": "oauth-2",
         "grantTypeInfo": {
             "isPKCE": false,
             "clientSecret": "",
-            "clientID": "showdown",
-            "codeVerifierMethod": "S256",
-            "token": "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICIzNEpkZG9vbTlVdmhaWkU4QTd4NTlxM09lQTJxMFRLLU0wWk8xMnZpMi1VIn0.eyJleHAiOjE3MzExMDk3MzcsImlhdCI6MTczMTEwOTQzNywiYXV0aF90aW1lIjoxNzMxMTA4ODA2LCJqdGkiOiI1YWE5ZjU4Mi1kZDYzLTRiY2QtYmEwMi04OTVjYmY2ZWFkMDkiLCJpc3MiOiJodHRwOi8vbG9jYWxob3N0OjgwODAvcmVhbG1zL1Nob3dkb3duIiwiYXVkIjoiYWNjb3VudCIsInN1YiI6IjE0NGRhM2UxLTYwYjQtNDc3ZC04Y2M5LWMzMGM3MWM3ZTU5OSIsInR5cCI6IkJlYXJlciIsImF6cCI6InNob3dkb3duIiwic2lkIjoiODc2MWI0NDctNmZiMi00NTI3LTg5YWYtYjAyYmEwZTM5Njk2IiwiYWNyIjoiMCIsImFsbG93ZWQtb3JpZ2lucyI6WyJodHRwczovL3RhdXJpLmxvY2FsaG9zdCJdLCJyZWFsbV9hY2Nlc3MiOnsicm9sZXMiOlsiZGVmYXVsdC1yb2xlcy1zaG93ZG93biIsIm9mZmxpbmVfYWNjZXNzIiwidW1hX2F1dGhvcml6YXRpb24iXX0sInJlc291cmNlX2FjY2VzcyI6eyJhY2NvdW50Ijp7InJvbGVzIjpbIm1hbmFnZS1hY2NvdW50IiwibWFuYWdlLWFjY291bnQtbGlua3MiLCJ2aWV3LXByb2ZpbGUiXX19LCJzY29wZSI6InByb2ZpbGUgZW1haWwiLCJlbWFpbF92ZXJpZmllZCI6ZmFsc2UsIm5hbWUiOiJhZG1pbiBhZG1pbiIsInByZWZlcnJlZF91c2VybmFtZSI6ImFkbWluIiwiZ2l2ZW5fbmFtZSI6ImFkbWluIiwiZmFtaWx5X25hbWUiOiJhZG1pbiIsImVtYWlsIjoiYWRtaW5AZ21haWwuY29tIn0.h_WnvQjFhqofZZKIxtetYk96OwyRjKnbjXJHgHCYmEWS0Q_l-6D-vTxYVVPtX_BjU8epNS5MX8Wajs3iPXESM9R9MTSW3KfXxBzBq0hHtn0Pwsb8h9egFiL34VUDeqsQ6M06DM2B3fbW9mvMy3G8wJ9rVvWkAcAk6MtkK7gAcrJqoCOwMYjAQHLkeNed9PjOx_6PPx8QN8GwbzNNcmySjpAfsaeKiW3g1MLcsLr5SEOr2Kj5z0zVnKjzWTmMmmWwWZ1mIo5us34btwb0wArC4ONGXag2oVDVT7_XXeS5fLmsnygRKyHO7xImoD1g4ROxKlBAUjP1UqZP2ywgTSc-JQ",
             "grantType": "AUTHORIZATION_CODE",
-            "authEndpoint": "<<AUTHORIZATION_URL>>",
+            "codeVerifierMethod": "S256",
             "tokenEndpoint": "<<TOKEN_URL>>",
-            "refreshToken": "eyJhbGciOiJIUzUxMiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICI2ZmIwYWE1Mi1hOTE0LTQ4OGUtODQyNC03ZTEwMTg1MWNjZTgifQ.eyJleHAiOjE3MzExMTEyMzcsImlhdCI6MTczMTEwOTQzNywianRpIjoiN2YxMTgwZTQtODE0MS00ZDc5LTg0NGItOGIwNzQ4N2NlOTk1IiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo4MDgwL3JlYWxtcy9TaG93ZG93biIsImF1ZCI6Imh0dHA6Ly9sb2NhbGhvc3Q6ODA4MC9yZWFsbXMvU2hvd2Rvd24iLCJzdWIiOiIxNDRkYTNlMS02MGI0LTQ3N2QtOGNjOS1jMzBjNzFjN2U1OTkiLCJ0eXAiOiJSZWZyZXNoIiwiYXpwIjoic2hvd2Rvd24iLCJzaWQiOiI4NzYxYjQ0Ny02ZmIyLTQ1MjctODlhZi1iMDJiYTBlMzk2OTYiLCJzY29wZSI6IndlYi1vcmlnaW5zIGJhc2ljIGFjciByb2xlcyBwcm9maWxlIGVtYWlsIn0.D4oGqmFXKZ2zTD1HW3ZOPAkPo0_rLYsFb4oNaav00xR2jB7NCKV8V5bw8bcuFfrUMEG-Ba3zDZfbweymDn-VRA"
-        },
-        "addTo": "HEADERS"
+            "authEndpoint": "<<AUTHORIZATION_URL>>",
+            "clientID": "showdown"
+        }
     },
     "headers": []
 }

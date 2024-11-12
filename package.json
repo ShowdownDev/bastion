@@ -1,12 +1,13 @@
 {
   "name": "bastion",
   "scripts": {
-    "dev:keycloak": "docker compose up -d",
+    "dev:keycloak": "docker compose up -d && ./scripts/configure-dev.sh",
     "dev": "wrangler dev",
     "types:update": "wrangler types --x-include-runtime"
   },
   "dependencies": {
     "hono": "4.6.4",
+    "jose": "5.9.6",
     "wrangler": "3.80.4"
   }
 }
